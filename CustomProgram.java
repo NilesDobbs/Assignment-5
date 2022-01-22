@@ -21,7 +21,7 @@ public class CustomProgram {
 		///Return the 5th applicant in the index.
 		System.out.println("Applicant #5: " + applicant.get(4));
 		
-		//Add
+		//Add the String
 		applicant.add(new ApplicationInfo("Member", " "));
 		System.out.println("Number of new applicants: " + applicant.getSize());
 		addNewApplicants(applicant);
