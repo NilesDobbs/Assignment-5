@@ -13,6 +13,7 @@ public class CustomProgram {
 	
 	public static void main(String[] args) {
 		CustomList<ApplicationInfo> applicant = new CustomArrayList<>();
+		
 		//Get the size and index location of the first applicant
 		System.out.println("# of starting applicants: " + applicant.getSize());
 		System.out.println("1st Applicant " + applicant.get(0));
