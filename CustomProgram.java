@@ -25,6 +25,7 @@ public class CustomProgram {
 		System.out.println("Number of new applicants: " + applicant.getSize());
 		addNewApplicants(applicant);
 		
+		//Get the final size of the list
 		System.out.println("Number of applicants: " + applicant.getSize());
 	
 	}
